@@ -5869,7 +5869,7 @@ html, body {
     background-image: url(../img/button-search-two.png); }
   #footer .social {
     display: inline-block; }
-    #footer .social .icon, #footer .social .icon1, #footer .social .icon2, #footer .social .icon3 {
+    #footer .social .icon, #footer .social .icon1, #footer .social .icon2, #footer .social .icon3, #footer .social .icon4, #footer .social .icon5 {
       width: 42px;
       height: 42px;
       float: left;
@@ -5886,6 +5886,14 @@ html, body {
       background-image: url(../img/footer-icon3-one.png); }
     #footer .social .icon3:hover {
       background-image: url(../img/footer-icon3-two.png); }
+    #footer .social .icon4 {
+      background-image: url(../img/google-plomo.png); }
+    #footer .social .icon4:hover {
+      background-image: url(../img/google+.png); }
+    #footer .social .icon5 {
+      background-image: url(../img/linkedin.png); }
+    #footer .social .icon5:hover {
+      background-image: url(../img/linkedin-2.png); }
   #footer ul {
     list-style: none; }
     #footer ul li {
@@ -5954,7 +5962,10 @@ html, body {
 @media screen and (max-width: 480px) {
   .container {
     padding-left: 9% !important;
-    padding-right: 9% !important; } }
+    padding-right: 9% !important; }
+
+  #footer ol.calendar {
+    padding-left: 32px; } }
 .redes-twitter {
   position: relative;
   padding: 20px;

@@ -439,6 +439,22 @@ html, body {
 		.icon3:hover{
 			background-image: url(../img/footer-icon3-two.png);
 		}
+		.icon4{
+			@extend .icon;
+			background-image: url(../img/google-plomo.png);
+		}
+
+		.icon4:hover{
+			background-image: url(../img/google+.png);
+		}
+		.icon5{
+			@extend .icon;
+			background-image: url(../img/linkedin.png);
+		}
+
+		.icon5:hover{
+			background-image: url(../img/linkedin-2.png);
+		}
 		
 	}
 
@@ -546,6 +562,9 @@ html, body {
 	.container {
  	   padding-left: 9% !important;
  		padding-right: 9% !important;
+	}
+	#footer ol.calendar {
+		padding-left: 32px;
 	}
 }
 	
